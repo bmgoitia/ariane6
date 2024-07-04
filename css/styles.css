@@ -1,0 +1,169 @@
+
+html, body {
+    
+    margin:0;
+  }
+
+
+
+
+/* TIMES HEADLINE */
+
+
+@font-face{
+  font-family: 'HLight';
+  src: url('../fonts/TiemposHeadline-Light.woff2') format('woff');
+}
+
+@font-face{
+font-family: 'HRegular';
+src: url('../fonts/TiemposHeadline-Regular.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'HMedium';
+src: url('../fonts/TiemposHeadline-Medium.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'HSemibold';
+src: url('../fonts/TiemposHeadline-Semibold.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'HBold';
+src: url('../fonts/TiemposHeadline-Bold.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'HBlack';
+src: url('../fonts/TiemposHeadline-Black.woff2') format('woff');
+}
+
+
+
+
+
+
+/* TIMES TEXT */
+
+@font-face{
+font-family: 'TRegular';
+src: url('../fonts/TiemposText-Regular.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'TRegularItalic';
+src: url('../fonts/TiemposTextApp-RegularItalic.woff') format('woff');
+}
+
+
+@font-face{
+font-family: 'TMedium';
+src: url('../fonts/TiemposText-Medium.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'TSemibold';
+src: url('../fonts/TiemposText-Semibold.woff2') format('woff');
+}
+
+
+@font-face{
+font-family: 'TBold';
+src: url('../fonts/TiemposText-Bold.woff2') format('woff');
+}
+
+
+/* font-family: 'TRegular', serif; */
+
+.lv_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #93a748;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  .lv_header h1{
+    font-family: 'HBold', serif;
+    font-size: 4rem;
+
+  }
+
+
+  .lv_header h4{
+    font-family: 'HSemibold', serif;
+    font-size: 2rem;
+    
+  }
+
+
+
+  .lv_sectionsWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .lv_fixedBackground {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  .lv_fixedBackground.img-1 {
+    background-image: url("../img/Diapos/Diapo1.png");
+  }
+  .lv_fixedBackground.img-2 {
+    background-image: url("../img/Diapos/Diapo2.png");
+  }
+  .lv_fixedBackground.img-3 {
+    background-image: url("../img/Diapos/Diapo3.png");
+  }
+  .lv_fixedBackground.img-4 {
+    background-image: url("../img/Diapos/Diapo4.png");
+  }
+  .lv_fixedBackground.img-5 {
+    background-image: url("../img/Diapos/Diapo5.png");
+  }
+
+  .lv_imgFull{
+    display: flex;
+    justify-content: center;
+  }
+
+  .lv_imgFull img{
+    width: 75%;
+    height: 75%;
+  }
+
+  .lv_randomText{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  
+
+  p{
+    font-family: 'TRegular', serif;
+    font-size: 1.2rem;
+    margin: 60px 10%;
+    -webkit-font-smoothing: antialiased;
+  }
