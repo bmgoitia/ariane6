@@ -104,7 +104,7 @@ src: url('../fonts/TiemposText-Bold.woff2') format('woff');
   .lv_header h4{
     font-family: 'HSemibold', serif;
     font-size: 2rem;
-    
+    text-align: center;
   }
 
 
